@@ -27,7 +27,9 @@ namespace cwiczenia28102024
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
+            btnStart.Visibility = Visibility.Hidden;
             MessageBox.Show("Witaj świecie!");
+            btnStart.Visibility = Visibility.Visible;
         }
 
         private void btntime_Click(object sender, RoutedEventArgs e)

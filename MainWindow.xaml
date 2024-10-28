@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Height="60" Margin="75,50,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" Click="btnStart_Click"/>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Height="60" Margin="75,50,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" Click="btnStart_Click" Background="#FF0BA0FF" BorderBrush="#FF0010FF" Foreground="White"/>
         <Button x:Name="btntime" Content="Czas" HorizontalAlignment="Left" Height="60" Margin="75,150,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" Click="btntime_Click" MouseEnter="btntime_MouseEnter" MouseLeave="btntime_MouseLeave"/>
     </Grid>
 </Window>
