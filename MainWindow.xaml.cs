@@ -24,5 +24,26 @@ namespace cwiczenia28102024
         {
             InitializeComponent();
         }
+
+        private void btnStart_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Witaj świecie!");
+        }
+
+        private void btntime_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btntime_MouseEnter(object sender, MouseEventArgs e)
+        {
+            DateTime data = DateTime.Now;
+            btntime.Content = data.ToString("T");
+        }
+
+        private void btntime_MouseLeave(object sender, MouseEventArgs e)
+        {
+            btntime.Content = "Czas";
+        }
     }
 }
