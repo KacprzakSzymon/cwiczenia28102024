@@ -9,5 +9,9 @@
     <Grid>
         <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Height="60" Margin="75,50,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" Click="btnStart_Click" Background="#FF0BA0FF" BorderBrush="#FF0010FF" Foreground="White"/>
         <Button x:Name="btntime" Content="Czas" HorizontalAlignment="Left" Height="60" Margin="75,150,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" Click="btntime_Click" MouseEnter="btntime_MouseEnter" MouseLeave="btntime_MouseLeave"/>
+        <Button x:Name="btnEnable" Content="Aktywuj" HorizontalAlignment="Left" Height="60" Margin="75,250,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" Click="btnStart_Click" Background="#FF0BA0FF" BorderBrush="#FF0010FF" Foreground="White"/>
+        <Label Content="Czy chciałbyś podwyżkę" HorizontalAlignment="Left" Margin-"410,60,0,0" VerticalAlignment="Top"FontFamily="Times New Roman" FontSize="26"/>
+        <Button x:Name="btnYes" Content="Tak" HorizontalAlignment="Left" Height="60" Margin="300,150,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" Click="btnStart_Click" Background="#FF0BA0FF" BorderBrush="#FF0010FF" Foreground="White"/>
+        <Button x:Name="btnNo" Content="Nie" HorizontalAlignment="Left" Height="60" Margin="600,150,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" Click="btnStart_Click" Background="#FF0BA0FF" BorderBrush="#FF0010FF" Foreground="White"/>
     </Grid>
 </Window>

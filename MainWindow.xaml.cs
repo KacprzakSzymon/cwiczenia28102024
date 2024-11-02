@@ -47,5 +47,30 @@ namespace cwiczenia28102024
         {
             btntime.Content = "Czas";
         }
+
+        private void btnEnable_Click(object sender, MouseEventArgs e)
+        {
+            btnStart.IsEnabled=true;
+        }
+        private void btnYes_Click(object sender, MouseEventArgs e)
+        {
+            if((string)btnYes.Content=="Nie")
+                MessageBox.Show("tak myślałem");
+            else
+            {
+                btnNo.Content="Tak";
+                btnYes.Content="Nie";
+            }
+        }
+        private void btnNo_Click(object sender, MouseEventArgs e)
+        {
+            if((string)btnNo.Content=="Nie")
+                MessageBox.Show("tak myślałem");
+            else
+            {
+                btnNo.Content="Nie";
+                btnYes.Content="Tak";
+            }
+        }
     }
 }
